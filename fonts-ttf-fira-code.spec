@@ -14,7 +14,9 @@ URL:		https://github.com/tonsky/FiraCode
 Source0:	https://github.com/tonsky/FiraCode/archive/%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
-BuildRequires:	freetype-tools
+BuildRequires:	fontconfig
+BuildRequires:	mkfontscale
+BuildRequires:	mkfontdir
 
 %description
 Monospaced font with programming ligatures
